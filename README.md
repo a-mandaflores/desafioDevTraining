@@ -1,70 +1,39 @@
-# Getting Started with Create React App
+# Projeto React de Avaliação de Alunos
+Bem-vindo ao projeto de Avaliação de Alunos em React! Este projeto utiliza React para exibir informações de uma planilha Excel contendo uma lista de nomes de alunos e realiza cálculos para determinar se cada aluno foi aprovado ou não.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Pré-requisitos
+Antes de começar, certifique-se de ter o seguinte instalado em seu ambiente de desenvolvimento:
 
-## Available Scripts
+Node.js (versão 12 ou superior)
+Git
 
-In the project directory, you can run:
+## Instalação
+Clone o repositório:
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+git clone https://github.com/seu-usuario/projeto-avaliacao-alunos.git
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+#### Navegue até o diretório do projeto:
 
-### `npm test`
+cd projeto-avaliacao-alunos
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+#### Instale as dependências:
 
-### `npm run build`
+npm install
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Execução
+Após a instalação e configuração, execute a aplicação com o seguinte comando:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+#### npm start
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Acesse http://localhost:3000 no seu navegador para ver a aplicação em ação.
 
-### `npm run eject`
+## Funcionalidades
+A aplicação lê os dados da planilha Excel.
+Realiza cálculos para determinar se cada aluno foi aprovado ou não.
+Exibe a lista de alunos com indicações de aprovação.
+Sinta-se à vontade para explorar o código-fonte e fazer ajustes conforme necessário para atender às suas necessidades específicas.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## Contribuição
+Se você encontrar problemas ou tiver sugestões de melhorias, sinta-se à vontade para abrir uma issue ou enviar um pull request.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
