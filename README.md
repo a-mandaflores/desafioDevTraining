@@ -11,11 +11,11 @@ Git
 Clone o repositório:
 
 
-git clone https://github.com/seu-usuario/projeto-avaliacao-alunos.git
+git clone https://github.com/seu-usuario/desafioDevTraining
 
 #### Navegue até o diretório do projeto:
 
-cd projeto-avaliacao-alunos
+cd desafioDevTraining
 
 #### Instale as dependências:
 
